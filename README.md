@@ -2,7 +2,7 @@
 DependencyInjection Extended Scope
 
 # What is it for?
-Imagine you have several interfaces you want to implement with DependencyInjection from Microsoft at once?
+Imagine you have several implementations of interfaces you want to register with DependencyInjection from Microsoft at once?
 
 DIES lets you define a scope profile with different types of criteria (as it exists in multiple other IoC containers yet):
 * Target assembly (by default: `ExecutingAssembly`)
