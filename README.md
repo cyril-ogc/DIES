@@ -1,0 +1,2 @@
+# DIES
+DependencyInjection Extended Scope
