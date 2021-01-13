@@ -10,7 +10,7 @@ DIES lets you define a scope profile with different types of criteria (as it exi
 * Class name ending by (by default: `Empty`)
 * Lifefime scope (by default: `Transient`)
 
-# Usage example: 
+# Usage example
 You want to register all the services implementations ending by "Service"?
 
 Instead of register each class into the container, you can do as the following example:
@@ -24,7 +24,7 @@ serviceCollection.AddExtendedScopeProfile(profile =>
 );
 ```
 
-# Compatibilty 
+# Compatibility 
 
 Only tested with `.NET Core 3.1` and `.NET Framework 4.6` so far.
 
